@@ -1,0 +1,14 @@
+{
+  "name": "bug example",
+  "version": "1.0",
+  "description": "Build an Extension!",
+  "manifest_version": 2,
+  "version": "1.0",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "permissions": ["tabs"],
+  "browser_action": {
+  }
+}
